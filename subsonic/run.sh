@@ -5,7 +5,7 @@ mkdir -p /data/transcode
 ln -s /usr/bin/ffmpeg /data/transcode/ffmpeg
 ln -s /usr/bin/lame /data/transcode/lame
 
-chown -R subsonic:subsonic /data /playlists /subsonic
+chown -R subsonic:subsonic /data /playlists /subsonic /podcasts
 
 su subsonic << EOF
 java -Xmx200m \
